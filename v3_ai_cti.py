@@ -234,7 +234,7 @@ def envia_correo(data):
     cantidad_rss_url = len(rss_url)
 
     msg = MIMEMultipart('alternative')
-    msg['From'] = "ucsredes@grupogtd.com"
+    msg['From'] = "correo_origen@asd.com"
     msg['To'] = "correo_usuario1.kabeza@gmoil.com, correo_usuario2@asd.com"
 
     msg['Subject'] = f"Reporte IA de CiberAmenazas {timestamp}"
